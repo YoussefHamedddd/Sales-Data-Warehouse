@@ -67,10 +67,9 @@ Develop SQL-based analytics to deliver detailed insights into:
 - *Product Performance*
 - *Sales Trends*
 
-
-
-
 ## 📂 Repository Structure
+
+
 
 data-warehouse-project/
 │
@@ -89,3 +88,5 @@ data-warehouse-project/
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
+
+
