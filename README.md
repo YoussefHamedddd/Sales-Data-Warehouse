@@ -74,18 +74,19 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 data-warehouse-project/
 │
-├── datasets/ # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/ # Project documentation and architecture details
-│ ├── High level Architecture.png # Draw.io file shows the project's architecture
-│ ├── dataflow.png # Draw.io file for the data flow diagram
+├── docs/                               # Project documentation and architecture details
+│   ├── High level Architecture.png      # Draw.io file shows the project's architecture
+│   ├── dataflow.png                    # Draw.io file for the data flow diagram
 │
-├── scripts/ # SQL scripts for ETL and transformations
-│ ├── bronze/ # Scripts for extracting and loading raw data
-│ ├── silver/ # Scripts for cleaning and transforming data
-│ ├── gold/ # Scripts for creating analytical models
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
 │
-├── tests/ # Test scripts and data quality checks
+├── tests/                              # Test scripts and data quality checks
 │
-├── README.md # Project overview and instructions
-├── LICENSE # License information for the repository
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+
