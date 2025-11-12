@@ -70,20 +70,34 @@ Develop SQL-based analytics to deliver detailed insights into:
 ## 📂 Repository Structure
 
 
-
 data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/               
+│   └── # المجلد ده بيحتوي على البيانات الخام المستخدمة في المشروع، زي بيانات ERP و CRM
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── High level Architecture.png      # Draw.io file shows the project's architecture
-│   ├── dataflow.png                    # Draw.io file for the data flow diagram
+├── docs/                   
+│   ├── High level Architecture.png
+│   │   └── # صورة توضح البنية المعمارية للمشروع (تم رسمها على Draw.io)
+│   └── dataflow.png
+│       └── # صورة توضح تدفق البيانات في المشروع
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+├── scripts/                
+│   ├── bronze/
+│   │   └── # سكريبتات لاستخراج وتحميل البيانات الخام (Raw Data)
+│   ├── silver/
+│   │   └── # سكريبتات تنظيف وتحويل البيانات (Data Cleaning & Transformation)
+│   └── gold/
+│       └── # سكريبتات لإنشاء النماذج التحليلية (Analytical Models)
 │
+├── tests/                  
+│   └── # سكريبتات لاختبارات جودة البيانات والتحقق من صحتها
+│
+├── README.md               
+│   └── # ملف يشرح نظرة عامة على المشروع والتعليمات الخاصة باستخدامه
+│
+└── LICENSE                 
+    └── # معلومات الترخيص الخاصة بالمشروع
+
 ├── tests/                              # Test scripts and data quality checks
 │
 ├── README.md                           # Project overview and instructions
